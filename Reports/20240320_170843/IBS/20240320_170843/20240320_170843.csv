@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IBS,,,,20-03-2024 17:08:45,20-03-2024 17:08:47,1.916s,PASSED
+,,,,,,,
+Test Cases/API IBS Unicorn,,API IBS Unicorn,,20-03-2024 17:08:45,20-03-2024 17:08:47,1.526s,PASSED
+"response = sendRequest(findTestObject(""IBS Unicorn""))",,,,20-03-2024 17:08:46,20-03-2024 17:08:47,1.300s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.013s,PASSED
+,,,,,,,
+Test Cases/API IBS X,,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.140s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.067s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.002s,PASSED
+,,,,,,,
+Test Cases/API Nota sudah lunas,,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.099s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.054s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,20-03-2024 17:08:47,20-03-2024 17:08:47,0.002s,PASSED

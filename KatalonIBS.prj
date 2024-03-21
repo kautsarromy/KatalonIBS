@@ -4,9 +4,10 @@
    <name>KatalonIBS</name>
    <tag></tag>
    <UUID>76860b19-c7cc-4f9f-b8cd-704788e2c0e0</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Romy Kautsar\git\KatalonIBS\KatalonIBS.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

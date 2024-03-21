@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IBS" time="1.947" tests="3" failures="0" errors="0">
+   <testsuite name="IBS" tests="3" failures="0" errors="0" time="1.947" skipped="0" timestamp="21-03-2024T10:35:28" hostname="Romy Kautsar - 10.1.234.226" id="Test Suites/IBS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Romy Kautsar\\git\\KatalonIBS\\Reports\\20240321_103524\\IBS\\20240321_103524"/>
+         <property name="logFiles" value="C:\\Users\\Romy Kautsar\\git\\KatalonIBS\\Reports\\20240321_103524\\IBS\\20240321_103524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Romy Kautsar - 10.1.234.226"/>
+         <property name="hostAddress" value="10.1.234.226"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/API IBS Unicorn" time="1.575" classname="Test Cases/API IBS Unicorn" status="PASSED">
+         <system-out><![CDATA[21-03-2024T10:35:29 - [TEST_CASE][PASSED] - Test Cases/API IBS Unicorn: Test Cases/API IBS Unicorn
+
+21-03-2024T10:35:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS Unicorn")): Send request successfully
+
+21-03-2024T10:35:30 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240321_103524\IBS\20240321_103524\requests\main\0.har
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Send request successfully
+
+21-03-2024T10:35:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API IBS X" time="0.12" classname="Test Cases/API IBS X" status="PASSED">
+         <system-out><![CDATA[21-03-2024T10:35:30 - [TEST_CASE][PASSED] - Test Cases/API IBS X: Test Cases/API IBS X
+
+21-03-2024T10:35:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS X API")): Send request successfully
+
+21-03-2024T10:35:30 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240321_103524\IBS\20240321_103524\requests\main\1.har
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Send request successfully
+
+21-03-2024T10:35:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Nota sudah lunas" time="0.105" classname="Test Cases/API Nota sudah lunas" status="PASSED">
+         <system-out><![CDATA[21-03-2024T10:35:30 - [TEST_CASE][PASSED] - Test Cases/API Nota sudah lunas: Test Cases/API Nota sudah lunas
+
+21-03-2024T10:35:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS X API")): Send request successfully
+
+21-03-2024T10:35:30 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240321_103524\IBS\20240321_103524\requests\main\2.har
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Send request successfully
+
+21-03-2024T10:35:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+21-03-2024T10:35:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2024T10:35:28 - [TEST_SUITE][PASSED] - IBS: Test Cases/API Nota sudah lunas]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
