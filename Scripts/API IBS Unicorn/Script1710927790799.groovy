@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 def response = WS.sendRequest(findTestObject('IBS Unicorn'))
 
-WS.verifyResponseStatusCode(response, 201)
+WS.verifyResponseStatusCode(response, 200)
 
