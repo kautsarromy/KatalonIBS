@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aplikasi PELINDO,Chrome 123.0.0.0,,,25-03-2024 10:45:46,25-03-2024 10:46:03,17.060s,FAILED
+,,,,,,,
+Test Cases/API IBS Unicorn,Chrome 123.0.0.0,API IBS Unicorn,,25-03-2024 10:45:46,25-03-2024 10:45:48,1.875s,PASSED
+"response = sendRequest(findTestObject(""IBS Unicorn""))",Chrome 123.0.0.0,,,25-03-2024 10:45:47,25-03-2024 10:45:48,1.630s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:45:48,25-03-2024 10:45:48,0.012s,PASSED
+,,,,,,,
+Test Cases/API IBS X,Chrome 123.0.0.0,,,25-03-2024 10:45:48,25-03-2024 10:45:49,0.179s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",Chrome 123.0.0.0,,,25-03-2024 10:45:48,25-03-2024 10:45:49,0.123s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:45:49,25-03-2024 10:45:49,0.004s,PASSED
+,,,,,,,
+Test Cases/API Nota sudah lunas,Chrome 123.0.0.0,,,25-03-2024 10:45:49,25-03-2024 10:45:49,0.179s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",Chrome 123.0.0.0,,,25-03-2024 10:45:49,25-03-2024 10:45:49,0.134s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:45:49,25-03-2024 10:45:49,0.003s,PASSED
+,,,,,,,
+Test Cases/P-EPROC Landing page,Chrome 123.0.0.0,Buka halaman Log in,,25-03-2024 10:45:49,25-03-2024 10:45:50,1.231s,PASSED
+"response = sendRequest(findTestObject(""P-EPROC Landing page""))",Chrome 123.0.0.0,,,25-03-2024 10:45:49,25-03-2024 10:45:50,1.189s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:45:50,25-03-2024 10:45:50,0.002s,PASSED
+,,,,,,,
+Test Cases/PEO Landing Page,Chrome 123.0.0.0,Buka halaman Log in,,25-03-2024 10:45:50,25-03-2024 10:45:50,0.210s,PASSED
+"response = sendRequest(findTestObject(""PEO Landing Page""))",Chrome 123.0.0.0,,,25-03-2024 10:45:50,25-03-2024 10:45:50,0.159s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:45:50,25-03-2024 10:45:50,0.002s,PASSED
+,,,,,,,
+Test Cases/Log in PEO,Chrome 123.0.0.0,,,25-03-2024 10:45:50,25-03-2024 10:46:03,13.198s,FAILED
+"openBrowser(""https://peo.pelindo.co.id/"")",Chrome 123.0.0.0,,,25-03-2024 10:45:50,25-03-2024 10:45:52,1.740s,PASSED
+maximizeWindow(),Chrome 123.0.0.0,,,25-03-2024 10:45:52,25-03-2024 10:45:52,0.130s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/Form Login""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:45:52,25-03-2024 10:45:52,0.335s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_user_email""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:45:52,25-03-2024 10:45:53,0.292s,PASSED
+"setText(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_user_email""), ""208707004"")",Chrome 123.0.0.0,,,25-03-2024 10:45:53,25-03-2024 10:45:53,0.662s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_password""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:45:53,25-03-2024 10:45:54,0.291s,PASSED
+"setEncryptedText(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_password""), ""2NsZvP3Lf6Vl0tILlyPy0A=="")",Chrome 123.0.0.0,,,25-03-2024 10:45:54,25-03-2024 10:45:54,0.336s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Sign In""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:45:54,25-03-2024 10:45:54,0.273s,PASSED
+"click(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Sign In""))",Chrome 123.0.0.0,,,25-03-2024 10:45:54,25-03-2024 10:45:55,0.327s,PASSED
+delay(3),Chrome 123.0.0.0,,,25-03-2024 10:45:55,25-03-2024 10:45:58,3.023s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/img_Tutup Poster_gambar""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:45:58,25-03-2024 10:46:00,2.293s,PASSED
+delay(1),Chrome 123.0.0.0,,,25-03-2024 10:46:00,25-03-2024 10:46:01,1.015s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Tutup Poster""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:46:01,25-03-2024 10:46:01,0.317s,PASSED
+delay(1),Chrome 123.0.0.0,,,25-03-2024 10:46:01,25-03-2024 10:46:02,1.009s,PASSED
+"click(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Tutup Poster""))",Chrome 123.0.0.0,,,25-03-2024 10:46:02,25-03-2024 10:46:03,1.110s,FAILED
