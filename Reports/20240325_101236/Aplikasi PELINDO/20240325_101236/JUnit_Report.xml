@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aplikasi PELINDO" time="4.12" tests="5" failures="0" errors="0">
+   <testsuite name="Aplikasi PELINDO" tests="5" failures="0" errors="0" time="4.12" skipped="0" timestamp="25-03-2024T10:12:41" hostname="Romy Kautsar - 10.1.9.21" id="Test Suites/Aplikasi PELINDO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Romy Kautsar\\git\\KatalonIBS\\Reports\\20240325_101236\\Aplikasi PELINDO\\20240325_101236"/>
+         <property name="logFiles" value="C:\\Users\\Romy Kautsar\\git\\KatalonIBS\\Reports\\20240325_101236\\Aplikasi PELINDO\\20240325_101236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Romy Kautsar - 10.1.9.21"/>
+         <property name="hostAddress" value="10.1.9.21"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+      </properties>
+      <testcase name="Test Cases/API IBS Unicorn" time="1.758" classname="Test Cases/API IBS Unicorn" status="PASSED">
+         <system-out><![CDATA[25-03-2024T10:12:41 - [TEST_CASE][PASSED] - Test Cases/API IBS Unicorn: Test Cases/API IBS Unicorn
+
+25-03-2024T10:12:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS Unicorn")): Send request successfully
+
+25-03-2024T10:12:43 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240325_101236\Aplikasi PELINDO\20240325_101236\requests\main\0.har
+
+25-03-2024T10:12:43 - [MESSAGE][PASSED] - Send request successfully
+
+25-03-2024T10:12:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+25-03-2024T10:12:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API IBS X" time="0.31" classname="Test Cases/API IBS X" status="PASSED">
+         <system-out><![CDATA[25-03-2024T10:12:43 - [TEST_CASE][PASSED] - Test Cases/API IBS X: Test Cases/API IBS X
+
+25-03-2024T10:12:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS X API")): Send request successfully
+
+25-03-2024T10:12:44 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240325_101236\Aplikasi PELINDO\20240325_101236\requests\main\1.har
+
+25-03-2024T10:12:44 - [MESSAGE][PASSED] - Send request successfully
+
+25-03-2024T10:12:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+25-03-2024T10:12:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Nota sudah lunas" time="0.25" classname="Test Cases/API Nota sudah lunas" status="PASSED">
+         <system-out><![CDATA[25-03-2024T10:12:44 - [TEST_CASE][PASSED] - Test Cases/API Nota sudah lunas: Test Cases/API Nota sudah lunas
+
+25-03-2024T10:12:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("IBS X API")): Send request successfully
+
+25-03-2024T10:12:44 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240325_101236\Aplikasi PELINDO\20240325_101236\requests\main\2.har
+
+25-03-2024T10:12:44 - [MESSAGE][PASSED] - Send request successfully
+
+25-03-2024T10:12:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+25-03-2024T10:12:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/P-EPROC Landing page" time="1.212" classname="Test Cases/P-EPROC Landing page" status="PASSED">
+         <system-out><![CDATA[25-03-2024T10:12:44 - [TEST_CASE][PASSED] - Test Cases/P-EPROC Landing page: Test Cases/P-EPROC Landing page
+
+25-03-2024T10:12:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("P-EPROC Landing page")): Send request successfully
+
+25-03-2024T10:12:45 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240325_101236\Aplikasi PELINDO\20240325_101236\requests\main\3.har
+
+25-03-2024T10:12:45 - [MESSAGE][PASSED] - Send request successfully
+
+25-03-2024T10:12:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+25-03-2024T10:12:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PEO Landing Page" time="0.435" classname="Test Cases/PEO Landing Page" status="PASSED">
+         <system-out><![CDATA[25-03-2024T10:12:45 - [TEST_CASE][PASSED] - Test Cases/PEO Landing Page: Test Cases/PEO Landing Page
+
+25-03-2024T10:12:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PEO Landing Page")): Send request successfully
+
+25-03-2024T10:12:45 - [MESSAGE][INFO] - HAR: C:\Users\Romy Kautsar\git\KatalonIBS\Reports\20240325_101236\Aplikasi PELINDO\20240325_101236\requests\main\4.har
+
+25-03-2024T10:12:45 - [MESSAGE][PASSED] - Send request successfully
+
+25-03-2024T10:12:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+25-03-2024T10:12:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-03-2024T10:12:41 - [TEST_SUITE][PASSED] - Aplikasi PELINDO: Test Cases/PEO Landing Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
