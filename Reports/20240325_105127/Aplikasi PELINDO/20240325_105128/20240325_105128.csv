@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aplikasi PELINDO,Chrome 123.0.0.0,,,25-03-2024 10:51:34,25-03-2024 10:51:54,19.886s,PASSED
+,,,,,,,
+Test Cases/API IBS Unicorn,Chrome 123.0.0.0,API IBS Unicorn,,25-03-2024 10:51:34,25-03-2024 10:51:36,1.903s,PASSED
+"response = sendRequest(findTestObject(""IBS Unicorn""))",Chrome 123.0.0.0,,,25-03-2024 10:51:34,25-03-2024 10:51:36,1.670s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.015s,PASSED
+,,,,,,,
+Test Cases/API IBS X,Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.360s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.310s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.003s,PASSED
+,,,,,,,
+Test Cases/API Nota sudah lunas,Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.244s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.184s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:36,0.002s,PASSED
+,,,,,,,
+Test Cases/P-EPROC Landing page,Chrome 123.0.0.0,Buka halaman Log in,,25-03-2024 10:51:36,25-03-2024 10:51:38,1.227s,PASSED
+"response = sendRequest(findTestObject(""P-EPROC Landing page""))",Chrome 123.0.0.0,,,25-03-2024 10:51:36,25-03-2024 10:51:38,1.183s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:51:38,25-03-2024 10:51:38,0.005s,PASSED
+,,,,,,,
+Test Cases/PEO Landing Page,Chrome 123.0.0.0,Buka halaman Log in,,25-03-2024 10:51:38,25-03-2024 10:51:38,0.709s,PASSED
+"response = sendRequest(findTestObject(""PEO Landing Page""))",Chrome 123.0.0.0,,,25-03-2024 10:51:38,25-03-2024 10:51:38,0.665s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 123.0.0.0,,,25-03-2024 10:51:38,25-03-2024 10:51:38,0.002s,PASSED
+,,,,,,,
+Test Cases/Log in PEO,Chrome 123.0.0.0,,,25-03-2024 10:51:38,25-03-2024 10:51:54,15.254s,PASSED
+"openBrowser(""https://peo.pelindo.co.id/"")",Chrome 123.0.0.0,,,25-03-2024 10:51:38,25-03-2024 10:51:41,2.638s,PASSED
+maximizeWindow(),Chrome 123.0.0.0,,,25-03-2024 10:51:41,25-03-2024 10:51:41,0.148s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/Form Login""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:51:41,25-03-2024 10:51:42,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_user_email""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:51:42,25-03-2024 10:51:42,0.361s,PASSED
+"setText(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_user_email""), ""208707004"")",Chrome 123.0.0.0,,,25-03-2024 10:51:42,25-03-2024 10:51:43,0.739s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_password""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:51:43,25-03-2024 10:51:43,0.313s,PASSED
+"setEncryptedText(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/input_Show password_password""), ""2NsZvP3Lf6Vl0tILlyPy0A=="")",Chrome 123.0.0.0,,,25-03-2024 10:51:43,25-03-2024 10:51:43,0.430s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Sign In""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:51:43,25-03-2024 10:51:44,0.324s,PASSED
+"click(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Sign In""))",Chrome 123.0.0.0,,,25-03-2024 10:51:44,25-03-2024 10:51:44,0.370s,PASSED
+delay(3),Chrome 123.0.0.0,,,25-03-2024 10:51:44,25-03-2024 10:51:47,3.054s,PASSED
+"verifyElementPresent(findTestObject(""Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/img_Tutup Poster_gambar""), 0)",Chrome 123.0.0.0,,,25-03-2024 10:51:47,25-03-2024 10:51:51,4.161s,PASSED
+takeScreenshot(null),Chrome 123.0.0.0,,,25-03-2024 10:51:51,25-03-2024 10:51:54,2.274s,PASSED
