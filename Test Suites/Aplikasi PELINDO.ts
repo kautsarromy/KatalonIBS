@@ -50,7 +50,7 @@
       <guid>fd92c065-c103-4536-998c-1d555bcdd37b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Log in PEO</testCaseId>
+      <testCaseId>Test Cases/Login PEO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
