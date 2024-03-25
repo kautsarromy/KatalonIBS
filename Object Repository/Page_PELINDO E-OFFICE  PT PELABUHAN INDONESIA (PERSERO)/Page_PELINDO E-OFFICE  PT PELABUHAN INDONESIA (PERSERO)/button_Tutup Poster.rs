@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Tutup Poster</name>
    <tag></tag>
-   <elementGuidId>8917ff61-2da0-4233-9f6f-dc99907db4fe</elementGuidId>
+   <elementGuidId>9433ff0d-9ed9-4f85-828f-7c1cdb140efc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
