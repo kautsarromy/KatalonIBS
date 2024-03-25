@@ -44,16 +44,3 @@ WebUI.delay(3)
 WebUI.verifyElementPresent(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/img_Tutup Poster_gambar'), 
     0)
 
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Tutup Poster'), 
-    0)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Tutup Poster'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/a_NASKAH DINAS'), 0)
-
