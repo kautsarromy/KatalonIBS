@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pasca Maintenance,,,,25-03-2024 09:20:50,25-03-2024 09:21:39,49.042s,FAILED
+,,,,,,,
+Test Cases/P-EPROC Landing page,,Buka halaman Log in,,25-03-2024 09:20:50,25-03-2024 09:20:53,2.527s,PASSED
+"response = sendRequest(findTestObject(""P-EPROC Landing page""))",,,,25-03-2024 09:20:50,25-03-2024 09:20:53,2.302s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:20:53,25-03-2024 09:20:53,0.013s,PASSED
+,,,,,,,
+Test Cases/PEO Landing Page,,Buka halaman Log in,,25-03-2024 09:20:53,25-03-2024 09:21:39,46.349s,FAILED
+"response = sendRequest(findTestObject(""PEO Landing Page""))",,,,25-03-2024 09:20:53,25-03-2024 09:21:39,46.233s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:21:39,25-03-2024 09:21:39,0.071s,FAILED
