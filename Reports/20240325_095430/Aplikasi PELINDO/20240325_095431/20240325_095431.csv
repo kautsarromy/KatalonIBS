@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aplikasi PELINDO,,,,25-03-2024 09:54:37,25-03-2024 09:55:44,1m - 6.799s,FAILED
+,,,,,,,
+Test Cases/API IBS Unicorn,,API IBS Unicorn,,25-03-2024 09:54:37,25-03-2024 09:54:39,1.837s,PASSED
+"response = sendRequest(findTestObject(""IBS Unicorn""))",,,,25-03-2024 09:54:38,25-03-2024 09:54:39,1.528s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:54:39,25-03-2024 09:54:39,0.014s,PASSED
+,,,,,,,
+Test Cases/API IBS X,,,,25-03-2024 09:54:39,25-03-2024 09:54:39,0.177s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",,,,25-03-2024 09:54:39,25-03-2024 09:54:39,0.107s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:54:39,25-03-2024 09:54:39,0.007s,PASSED
+,,,,,,,
+Test Cases/API Nota sudah lunas,,,,25-03-2024 09:54:39,25-03-2024 09:54:40,0.272s,PASSED
+"response = sendRequest(findTestObject(""IBS X API""))",,,,25-03-2024 09:54:39,25-03-2024 09:54:40,0.183s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:54:40,25-03-2024 09:54:40,0.005s,PASSED
+,,,,,,,
+Test Cases/P-EPROC Landing page,,Buka halaman Log in,,25-03-2024 09:54:40,25-03-2024 09:54:41,1.429s,PASSED
+"response = sendRequest(findTestObject(""P-EPROC Landing page""))",,,,25-03-2024 09:54:40,25-03-2024 09:54:41,1.354s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:54:41,25-03-2024 09:54:41,0.002s,PASSED
+,,,,,,,
+Test Cases/PEO Landing Page,,Buka halaman Log in,,25-03-2024 09:54:41,25-03-2024 09:55:44,1m - 2.904s,FAILED
+"response = sendRequest(findTestObject(""PEO Landing Page""))",,,,25-03-2024 09:54:41,25-03-2024 09:55:44,1m - 2.847s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,25-03-2024 09:55:44,25-03-2024 09:55:44,0.017s,FAILED
