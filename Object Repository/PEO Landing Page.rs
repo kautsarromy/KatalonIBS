@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>a217c5ce-d155-46d4-95a0-3aecc438a19c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
