@@ -39,7 +39,7 @@ WebUI.verifyElementPresent(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN I
 
 WebUI.click(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/button_Sign In'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_PELINDO E-OFFICE  PT PELABUHAN INDONESIA (PERSERO)/a_NASKAH DINAS'), 0)
 
