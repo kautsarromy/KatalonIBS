@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Buka halaman Log in</description>
-   <name>PEO Landing Page</name>
+   <name>PEO Form Log in</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2bb7618-ae08-4558-ad79-7b8e4e10e475</testCaseGuid>
